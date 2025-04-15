@@ -1,7 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Agency</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/imgs/epicode_logo.png" alt="Epicode Logo" width="150" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recensioni</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10 bg-light rounded-4 p-5 text-center shadow-sm">
+          <h1 class="display-4 fw-bold">EpiGo Travels</h1>
+          <p class="lead text-muted">Esplora, Vivi, Ama il mondo.</p>
+          <p class="fst-italic">Sogniamo insieme le tue prossime avventure, con offerte su misura per ogni viaggiatore.</p>
+          <button class="btn btn-info text-white fw-bold px-4 py-2 mt-3" type="button">Prenota ora</button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
 
 In questa pagina aggiungerai destinazioni di posti che sogni di visitare in futuro.
 
@@ -15,7 +84,7 @@ Usa container > row > col-* in questo ordine per ottenere un layout responsive p
 
 Esercizi:
 
-1) Implementa una navbar con questi elementi di menu:
+✅ 1) Implementa una navbar con questi elementi di menu: 
 Home
 Saldi
 Welcome Summer
@@ -24,12 +93,14 @@ Recensioni
 
 Collegherai ogni sezione della pagina agli elementi del menu corrispondenti. 
 
-2) Aggiungi un logo alla navbar, un qualsiasi logo di agenzia di viaggi, anche inventata.
+✅ 2) Aggiungi un logo alla navbar, un qualsiasi logo di agenzia di viaggi, anche inventata.
 
-3) Aggiungi una sezione introduttiva con il nome, il payoff dell'agenzia, 
+✅ 3) Aggiungi una sezione introduttiva con il nome, il payoff dell'agenzia, 
 una breve descrizione in corsivo e una call-to-action (bottone) "Prenota ora" di colore azzurro chiaro e testo bianco e grassetto
 
 Il background della sezione sarà grigio chiaro e con bordi arrotondati e del padding generoso all'interno
+
+''''''''''''''''to continue'''''''''''''''''''
 
 4) Implementa la sezione "Saldi". Qui mostrerai 4 destinazioni.
 
@@ -90,22 +161,3 @@ EXTRAS
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
 
 -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap 2</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-      crossorigin="anonymous"
-    />
-  </head>
-
-  <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
